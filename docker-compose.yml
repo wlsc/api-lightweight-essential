@@ -1,0 +1,8 @@
+---
+api-lightweight-essential:
+  build: .
+  container_name: api-lightweight-essential
+  hostname: api-lightweight-essential
+  restart: always
+  ports:
+    - "8888:8888"
